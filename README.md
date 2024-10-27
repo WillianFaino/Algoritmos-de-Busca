@@ -40,16 +40,6 @@ O jogo usa uma matriz `3x3` para representar as células do quebra-cabeça. O es
 - **Busca Profunda**: Executa uma busca não informada até 50 movimentos para tentar encontrar uma solução.
 - **Algoritmo A\***: Usa a soma das distâncias de Manhattan como heurística para encontrar o caminho mais curto para o estado objetivo.
 
-### Melhorias Futuras
-
-- Implementar uma verificação mais rápida para garantir a solubilidade da matriz inicial.
-- Adicionar animações para movimentos de células.
-- Otimizar a função `astar` para evitar duplicação de estados já explorados.
-
-### Contribuição
-
-Contribuições são bem-vindas! Faça um fork do projeto, implemente suas melhorias e abra um pull request para revisarmos.
-
 ### Licença
 
 Este projeto é distribuído sob a licença MIT.
